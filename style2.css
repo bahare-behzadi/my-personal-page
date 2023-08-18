@@ -39,6 +39,7 @@ h6 {
     font-weight: 700;
     color: #fff;
     background-color: #1ee2e7;
+    margin: 2%;
 }
 
 .btn-primary:hover,
@@ -81,6 +82,7 @@ h6 {
     border-color: #17d0d5;
     color: #fff;
     background-color: #17d0d5;
+    margin: 10%;
 }
 
 .btn-xl:active,
@@ -157,6 +159,9 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+}
+ul {
+    background-color: antiquewhite;
 }
 
 @media(min-width:768px) {
@@ -373,7 +378,7 @@ section h3.section-subheading {
         padding: 0 100px 20px 20px;
     }
 }
-.footer {
+footer {
     position: relative;
     bottom: 0px;
     z-index: 0;
@@ -384,6 +389,20 @@ section h3.section-subheading {
     text-align: center;
     flex-direction: column;
     color: #f7f7f7;
+}
+footer .messages{
+    text-align: left;
+    color: antiquewhite;
+    background-image: url("Sending.jpg"); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10%;
 }
 
 .footer-content {
@@ -401,7 +420,4 @@ section h3.section-subheading {
     margin-bottom: 20px;
 }
 
-.footer button {
-    background-color: #1ee2e7;
-    color:#1A120B;
-}
+

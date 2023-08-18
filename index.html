@@ -19,7 +19,7 @@
       </div>
     </div>
     <div id="demo" class="collapse">
-      <h5 id="header-title">If you want to know about my life story, click <a href="#">here</a></h5>
+      <h5 id="header-title">If you want to know about my life story, click <a href="page2.html">here</a></h5>
     </div>
   </div>
 </nav>
@@ -86,7 +86,7 @@
             <div class="col-lg-12 text-center">
               <h2 class="section-heading">CERTIFICATES</h2>
               <h3 class="section-subheading text-muted">
-                <ul class="list-group">
+                <ul class="list-group-flush">
                   <li class="list-group-item">Cisco DevNet Associate</li>
                   <li class="list-group-item">Cisco CyberOps Associate</li>
                   <li class="list-group-item">(ISC)2 Candidate</li>
@@ -99,7 +99,7 @@
             <div class="col-lg-12 text-center">
               <h2 class="section-heading">Skills</h2>
               <h3 class="section-subheading text-muted">
-                <ul class="list-group">
+                <ul class="list-group-flush">
                 <li class="list-group-item">Programming: Python, Selenium, Java, JavaScript, CSS, HTML, C#, SQL, R</li>
                 <li class="list-group-item">Databases: MySQL</li>
                 <li class="list-group-item">Version Control: Git, GitHub</li>
@@ -223,6 +223,17 @@
   </section>
   <!-- footer Section -->
   <footer class="footer d-flex flex-column bd-highlight mb-2">
+    <div class="messages">
+      <div class="container mt-3">
+        <form  onsubmit="return validateForm()">
+          <div class="mb-3 mt-3">
+            <label for="comment">Comments:</label>
+            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </form>
+      </div>
+    </div>
     <div class="p-2 bd-highlight">
         <h2 class="text-light text-uppercase">info</h2>
     </div>
@@ -248,5 +259,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
